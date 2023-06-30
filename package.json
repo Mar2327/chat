@@ -1,0 +1,20 @@
+{
+  "name": "expcha",
+  "version": "1.0.0",
+  "description": "\"A simple chat server built with Node.js that allows users to communicate in real-time through a web-based chat interface. The server uses the WebSocket protocol to enable real-time communication between clients and supports multiple chat rooms and user authentication.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "["
+  ],
+  "author": "Marc Eli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.7.1",
+    "ws": "^8.13.0"
+  }
+}
